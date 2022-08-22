@@ -6,5 +6,5 @@
 npm-debug.*
 dist/
 node_modules/
-pacage-lock.json
+package-lock.json
 app/css/*
