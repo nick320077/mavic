@@ -1,42 +1,39 @@
-$accent: #fcd7b6;
-$accent-blue: #a3bbc8;
-$accent-dark: #436372;
-$title: #1a1a1a;
-$subtitle: #243f4d;
-$default: #8b8b8b;
-$footer-default: #7b7b7b;
-
-%dmsans-700 {
-    font-family: 'DMSans-Bold', sans-serif;
+%sf-700 {
+    font-family: 'SFProDisplay-Bold', sans-serif;
     font-weight: 700;
 }
 
-%dmsans-500 {
-    font-family: 'DMSans-Medium', sans-serif;
-    font-weight: 500;
-}
-
-%dmsans-400 {
-    font-family: 'DMSans-Regular', sans-serif;
-    font-weight: 400;
-}
-
-%poppins-700 {
-    font-family: 'Poppins-Bold', sans-serif;
-    font-weight: 700;
-}
-
-%rubik-300 {
-    font-family: 'Rubik-Light', sans-serif;
+%sf-300 {
+    font-family: 'SFProDisplay-Light', sans-serif;
     font-weight: 300;
 }
 
-%rubik-500 {
-    font-family: 'Rubik-Medium', sans-serif;
+%sf-500 {
+    font-family: 'SFProDisplay-Medium', sans-serif;
     font-weight: 500;
 }
 
-%rubik-400 {
-    font-family: 'Rubik-Regular', sans-serif;
+%sf-400 {
+    font-family: 'SFProDisplay-Regular', sans-serif;
     font-weight: 400;
+}
+
+%sf-600 {
+    font-family: 'SFProDisplay-Semibold', sans-serif;
+    font-weight: 600;
+}
+
+%ub-300 {
+    font-family: 'Ubuntu-Light', sans-serif;
+    font-weight: 300;
+}
+
+%ub-500 {
+    font-family: 'Ubuntu-Medium', sans-serif;
+    font-weight: 500;
+}
+
+%ub-700 {
+    font-family: 'Ubuntu-Bold', sans-serif;
+    font-weight: 700;
 }

@@ -1,68 +1,71 @@
 @font-face {
-    font-family: 'DMSans-Bold';
+    font-family: 'SFProDisplay-Bold';
     font-weight: 700;
     font-style: normal;
-    src: local('DMSans-Bold') 
-    url('../fonts/DMSans-Bold.woff2') format('woff2'),
-        url('../fonts/DMSans-Bold.woff') format('woff');
-    font-display: swap;
-}
-@font-face {
-    font-family: 'DMSans-Medium';
-    font-weight: 500;
-    font-style: normal;
-    src: local('DMSans-Medium') 
-    url('../fonts/DMSans-Medium.woff2') format('woff2'),
-        url('../fonts/DMSans-Medium.woff') format('woff');
+    src: local('DMSans-Bold') url('../fonts/SFProDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Bold.woff') format('woff');
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'DMSans-Regular';
+    font-family: 'SFProDisplay-Regular';
     font-weight: 400;
     font-style: normal;
-    src: local('DMSans-Regular') 
-    url('../fonts/DMSans-Regular.woff2') format('woff2'),
-        url('../fonts/DMSans-Regular.woff') format('woff');
+    src: local('SFProDisplay-Regular') url('../fonts/SFProDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Regular.woff') format('woff');
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Poppins-Bold';
-    font-weight: 700;
-    font-style: normal;
-    src: local('Poppins-Bold') 
-    url('../fonts/Poppins-Bold.woff2') format('woff2'),
-        url('../fonts/Poppins-Bold.woff') format('woff');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Rubik-light';
+    font-family: 'SFProDisplay-Light';
     font-weight: 300;
     font-style: normal;
-    src: local('Rubik-light') 
-    url('../fonts/Rubik-light.woff2') format('woff2'),
-        url('../fonts/Rubik-light.woff') format('woff');
+    src: local('SFProDisplay-Light') url('../fonts/SFProDisplay-Light.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Light.woff') format('woff');
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Rubik-Medium';
+    font-family: 'SFProDisplay-Medium';
     font-weight: 500;
     font-style: normal;
-    src: local('Rubik-Medium') 
-    url('../fonts/Rubik-Medium.woff2') format('woff2'),
-        url('../fonts/Rubik-Medium.woff') format('woff');
+    src: local('SFProDisplay-Medium') url('../fonts/SFProDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Medium.woff') format('woff');
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Rubik-Regular';
-    font-weight: 400;
+    font-family: 'SFProDisplay-Semibold';
+    font-weight: 600;
     font-style: normal;
-    src: local('Rubik-Regular') 
-    url('../fonts/Rubik-Regular.woff2') format('woff2'),
-        url('../fonts/Rubik-Regular.woff') format('woff');
+    src: local('SFProDisplay-Semibold') url('../fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Semibold.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu-bold';
+    font-weight: 700;
+    font-style: normal;
+    src: local('Ubuntu-bold') url('../fonts/Ubuntu-bold.woff2') format('woff2'),
+        url('../fonts/Ubuntu-bold.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Light';
+    font-weight: 300;
+    font-style: normal;
+    src: local('Ubuntu-Light') url('../fonts/Ubuntu-Light.woff2') format('woff2'),
+        url('../fonts/Ubuntu-Light.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: local('Ubuntu-Medium') url('../fonts/Ubuntu-Medium.woff2') format('woff2'),
+        url('../fonts/Ubuntu-Medium.woff') format('woff');
     font-display: swap;
 }

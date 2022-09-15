@@ -1,54 +1,40 @@
-html {
+html{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-*,
-*::after,
-*::before {
+*,*::before, *::after {
     box-sizing: inherit;
 }
 
-ul[class],
-ol[class] {
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,
+li{
+    list-style: none;
+    margin: 0;
     padding: 0;
 }
 
-body,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
+h6{
+ margin: 0;
+ font-size: inherit;
+}
+
+body{
+    @extend %ub-300;
+    font-size: 17px;
+    line-height: 26px;
+    min-width: 320px;
+    overflow-x: hidden;
+    position: relative;
+    color: #fff;
     margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul[class],
-ol[class] {
-    list-style: none;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-}
-
-input,
-button,
-textarea,
-select {
-    font: inherit;
 }
