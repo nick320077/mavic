@@ -55,8 +55,19 @@
         &+.menu__list-item {
             padding-left: 20px;
         }
+        &.active{
+            text-decoration: underline;
+            @extend %ub-700;
+        }
+    }
+    &__list-phone{
+        display: none;
+    }
+    &__btn{
+        display: none;
     }
 }
+
 
 .top {
     background-image: url(../images/top-bg.jpg);
@@ -167,7 +178,7 @@
     border: none;
     background-color: #fff;
     position: absolute;
-    bottom: -45px;
+    bottom: -48px;
     right: 0;
     cursor: pointer;
     z-index: 5;

@@ -13,31 +13,36 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <a class="logo" href="#">
-                    <picture class="logo__img">
-                        <source srcset="images/logo-mobile.png" media="(max-width: 600px)">
-                        <img src="images/logo.png" alt="">
-                    </picture>
-                </a>
+                <div>
+                    <a class="logo" href="#top">
+                        <picture class="logo__img">
+                            <source srcset="images/logo-mobile.png" media="(max-width: 600px)">
+                            <img src="images/logo.png" alt="">
+                        </picture>
+                    </a>
+                </div>
                 <nav class="menu">
                     <button class="menu__btn">
                         <span class="menu__btn-line"></span>
                     </button>
                     <ul class="menu__list">
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">О ДРОНЕ</a>
+                            <a class="menu__list-link" href="#products">О ДРОНЕ</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">ПРЕИМУЩЕСТВА</a>
+                            <a class="menu__list-link" href="#benefits">ПРЕИМУЩЕСТВА</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">ХАРАКТЕРИСТИКИ</a>
+                            <a class="menu__list-link" href="#specification">ХАРАКТЕРИСТИКИ</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">ВОПРОСЫ</a>
+                            <a class="menu__list-link" href="#questions">ВОПРОСЫ</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">КОНТАКТЫ</a>
+                            <a class="menu__list-link" href="#contacts">КОНТАКТЫ</a>
+                        </li>
+                        <li class="menu__list-phone">
+                            <a class="header__phone-menu" href="tel:80505676767">8 (050) 567 67 67</a>
                         </li>
                     </ul>
                 </nav>
@@ -50,7 +55,7 @@
 
     </header>
     <main id="fullpage">
-        <section id="top" class="page-section top">
+        <section data-anchor="top" class="page-section top">
             <div class="page-section__wrapper top__wrapper">
                 <div class="container">
                     <div class="top__inner">
